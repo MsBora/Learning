@@ -36,7 +36,6 @@ if(greater<len)
     greater=len;
     tempI=index;
 }
-console.log(tempI,greater);
 for(j=tempI;j<(tempI+greater);j++)
 {
     

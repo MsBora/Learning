@@ -43,7 +43,6 @@ if(greater<len)
         }
         len=1;
 
-console.log(tempI,greater);
 for(j=tempI;j<(tempI+greater);j++)
 {
     
