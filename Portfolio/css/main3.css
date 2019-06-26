@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    margin-bottom: .2%
+}
+
+.intro{
+    background-image: url("../images/wwww.jpg");
+    width: 100%;
+
+    color: papayawhip
+    
+}
+.aboutMe{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 66%;
+}
+.centered {
+    text-align:right;
+    margin:1%;
+  }
+#image{
+      margin-top: 1%;
+      border:3px solid;
+      width:210px; 
+      height:250px;
+  }
+  .table{
+      padding-bottom: 2%
+  }
+#edu{
+    /* background-image: url("170844.jpg"); */
+    background-color: darkslategray;
+    text-align: center
+}
+
+ .image{
+     border-radius: 50%;
+     margin-left:3%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+
+
+ }
+ /* #left{
+    margin-left: 10%
+} */
+ .image:hover,.im:hover{
+     /* height:200px;
+     width:200px;
+     position: relative */
+     transform: scale(1.25)
+ }
+
+
+ #edu{
+    background-color: aquamarine
+ }
+ #skill{
+    background-image: url("../images/r.jpg")
+ }
+ #project{
+    background-color: navajowhite
+ }
+ #contact{
+    background-color: yellowgreen
+ }
+ 
+ .lt{
+     text-align: right
+ }
+ .rt{
+    text-align: left
+}
+.ctr{
+    text-align: center;
+    font-size: 170%
+}
+.ctrl{
+    text-align: center;
+    font-size: 170%;
+    color:gold
+}
+.ctr2{
+    text-align: center;
+    font-size: 170%;
+    color:yellow
+}
+td{
+    color:whitesmoke
+}
