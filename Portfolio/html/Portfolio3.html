@@ -4,11 +4,12 @@
 
         </title>
         <link rel="stylesheet" type="text/css"href="../css/main3.css">
+        
     </head>
     <body>
         <div class="intro"> <!---------------------------------------------------------------------------------------INTRODUCTION-->
                   <div class='aboutMe'>
-                      <h1 style="padding-left: 8%">Something About me...</h1>
+                      <h1 style="padding-left: 8%; padding-top: 3%">Something NICE About Me...</h1>
                       <p style="padding-left: 5%"> About me....
                           and meeeee<br/>
                           and meeeee<br/>
@@ -21,7 +22,7 @@
                     <div class="centered">
                         <img id="image" src="../images/DP.jpg" alt="My Pic" >
                         
-                        <h2 style='font-family:cursive; font-size: 200%'>Mohneesh Singh</h2>
+                        <h2 style='font-family:cursive; font-size: 250%'>Mohneesh Singh</h2>
                         (Mad maxX)
                         <br/>
                     </div>
@@ -31,16 +32,16 @@
                       <table class="table"  width="100%">
                             <tr>
                                 <td class="lt">
-                                    <a href="#edu"><img id="left" class="image"src="../images/pencil.png" alt="My Pic" width="150px" height="150px"></a>
+                                    <a href="#edu"><img id="left" class="image"src="../images/edu.png" alt="My Pic" width="150px" height="150px"></a>
                                 </td>
                                 <td style="text-align: center">
-                                    <a href="#skill"><img class="image" src="../images/edu.png" alt="My Pic" width="150px" height="150px"></a>
+                                    <a href="#skill"><img class="image" src="../images/skill.png" alt="My Pic" width="150px" height="150px"></a>
                                 </td>
                                 <td style="text-align: center">
-                                    <a href="#project"><img class="image" src="../images/images.png" alt="My Pic" width="150px" height="150px"></a>
+                                    <a href="#project"><img class="image" src="../images/pro.png" alt="My Pic" width="150px" height="150px"></a>
                                 </td>
                                 <td class="rt">
-                                    <a href="#contact"><img class="image" src="../images/contact.gif" alt="My Pic" width="150px" height="150px"></a><br/>
+                                    <a href="#contact"><img class="image" src="../images/conta.png" alt="My Pic" width="150px" height="150px"></a><br/>
                                 </td>
                             </tr>
                             <tr>
@@ -62,16 +63,15 @@
 
         <div id="edu"> <!--------------------------------------------------------------------------------------------EDUCATION-->
             <h1 style="text-align: center; padding-top: 3%; color: whitesmoke; font-family:cursive; font-size: 500%">Education</h1>    
-            <table>
-                <tr>
-                    <td>
-
-                    </td>
-                    <td>
-
-                    </td>
-                </tr>
-            </table>
+            
+            <div id='mid'>
+                    <img class='imageE' src="../images/ten.png" alt="" width="125px" onclick="displayMsg()"><p class="skl">School</p><br/>
+                    <img class='imageE' src="../images/twe.png" alt="" width="125px" onclick="displayMsg1()"><p class="skl">School</p><br/>
+                    <img class='imageE' src="../images/uni.png" alt="" width="125px" onclick="displayMsg2()"><p class="skl">College</p><br/>
+            </div>
+            <div id='ten' style="color: rosybrown"></div>
+            <div id='twe' style="color: rosybrown"></div>
+            <div id='uni' style="color: rosybrown"></div>
         </div>
         <div id="skill"><!--------------------------------------------------------------------------------------------SKILLS-->
                 <h1 style="text-align: center; padding-top: 3%; color: whitesmoke; font-family:cursive; font-size: 500%">Skills</h1>
@@ -127,13 +127,14 @@
                <br/>
                <br/>
         </div>
-        <div id="project"> <!-------------------------------------------------------------------------------------PROJECT-->
+        <div id="project" style="padding-bottom: 3%"> <!-------------------------------------------------------------------------------------PROJECT-->
             <h1 style="text-align: center; padding-top: 3%; color: whitesmoke; font-family:cursive; font-size: 500%">Projects </h1>    
-
-            <h4>Roller Ball</h4>
+<!------------------------------------------------------------------------------------------------------>
+           <div class='proj'>
+            <h2 style="padding-left: 5%; color: whitesmoke">Roller Ball</h2>
             <table>
                 <td>
-                    <img src="../images/roll.jpg" alt="roller ball" height="100px" width="100px">
+                    <img src="../images/roll.jpg" alt="roller ball" height="100px" width="120px"style="margin-left: 10%; border:2px solid">
                 </td>
                 <td>
                     <ul>
@@ -146,10 +147,10 @@
             </table>
             <br/>
             <br/>
-            <h4>3D Box shooter</h4>
+            <h2 style="padding-left: 5%; color: whitesmoke">3D Box shooter</h2>
             <table>
                 <td>
-                    <img src="../images/box.jpg" alt="Box shooter" height="100px" width="100px">
+                    <img src="../images/box.jpg" alt="Box shooter" height="100px" width="120px"style="margin-left: 10%;border:2px solid">
                 </td>
                 <td>
                     <ul>
@@ -163,10 +164,10 @@
             </table>
             <br/>
             <br/>
-            <h4>Neuroevolution Approach in general Game Playing</h4>
+            <h2 style="padding-left: 5%; color: whitesmoke">Neuroevolution Approach in general Game Playing</h2>
             <table>
                 <td>
-                    <img src="../images/asa.jpeg" alt="NEAT" height="100px" width="100px">
+                    <img src="../images/asa.jpeg" alt="NEAT" height="100px" width="120px" style="margin-left: 10%;border:2px solid">
                 </td>
                 <td>
                     <ul>
@@ -179,19 +180,40 @@
                     
                 </td>
             </table>
+           </div>
+           <div class='git'><!---->
+               <div id="git" style=" text-align: center">
+                    <img class="image" src="../images/git.png" alt="" height="100px" onclick="clickhandler()">
+                    <p  id='para'style="color:white">Click the ICon for some MAGIC    </p>
+                    <p style="font-size: 200%"><a id="0" href="" style="color: thistle"></a></p>
+                    <p style="font-size: 200%"><a id="1" href=""style="color: thistle"></a></p>
+                    <p style="font-size: 200%"><a id="2" href=""style="color: thistle"></a></p>
+                    <p style="font-size: 200%"><a id="3" href=""style="color: thistle"></a></p>
+                    <p style="font-size: 200%"><a id="4" href=""style="color: thistle"></a></p>
+                    <p style="font-size: 200%"><a id="5" href=""style="color: thistle"></a></p>
+                    
+                </div>
+                <tabel id='tbll'>
+
+                </tabel>
+                
+               <!-- <button onClick="clickhandler()"> click me</button> -->
+
+           </div>
            
         </div>
-        <div id="contact"><!-----------------------------------------------------------------------------------------------CONTACTS-->
+        <div id="contact" style="padding-bottom: 2%"><!-----------------------------------------------------------------------------------------------CONTACTS-->
                <h1 style="padding-top: 3%; text-align:left">Contact</h1>
                <br/>
-               <p>
+               <p style="padding-bottom: .5%; color: whitesmoke">
                     Velit scelerisque in dictum non consectetur. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Gravida neque convallis a cras semper auctor neque vitae. Tortor at risus viverra adipiscing at. Habitant morbi tristique senectus et. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Lorem sed risus ultricies tristique nulla aliquet enim. Morbi non arcu risus quis varius quam quisque. Auctor neque vitae tempus quam pellentesque nec. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. At auctor urna nunc id cursus metus aliquam eleifend. Tellus in metus vulputate eu scelerisque felis imperdiet proin.
-               </p>
-               <a href=""><img class='im' src="../images/linkedin.jpg" height="50px" style="margin-left:1%"></a>
-                        <a href=""><img class='im' src="../images/googlep.png" height="50px" style="margin-left:.1%"></a>
-                        <a href=""><img class='im' src="../images/fb.png" height="50px" style="margin-left:.1%"></a>
-               
+                </p>
+                <a href="https://www.linkedin.com/in/ms96/"><img class='im' src="../images/linkedin.jpg" height="50px" style="margin-left:1%"></a>
+                <a href=""><img class='im' src="../images/googlep.png" height="50px" style="margin-left:.1%"></a>
+                <a href="https://www.facebook.com/mohneesh.sbora"><img class='im' src="../images/fb.png" height="50px" style="margin-left:.1%"></a>
+                <a href="https://www.mirakee.com/mr_wizzard96"><img src="../images/me.jpg" alt="" height="50px" style="margin-left:.1%"></a>
                
         </div>
     </body>
+    <script src='../js/xhr2.js'></script>
 </html>
